@@ -1,0 +1,32 @@
+{
+    "name": "twentyfifth/php-cs-fixer-config",
+    "type": "library",
+    "description": "Provides the 25th-floor configuration for friendsofphp/php-cs-fixer.",
+    "keywords": [
+        "php-cs-fixer",
+        "25th-floor"
+    ],
+    "homepage": "https://www.25th-floor.com/",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
+    "require-dev": {
+        "jangregor/phpstan-prophecy": "^0.4.1",
+        "phpstan/phpstan": "^0.11.8",
+        "phpstan/phpstan-deprecation-rules": "^0.11.2",
+        "phpstan/phpstan-strict-rules": "^0.11.1",
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TwentyFifth\\PhpCsFixer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TwentyFifth\\PhpCsFixer\\Tests\\": "tests/"
+        }
+    }
+}

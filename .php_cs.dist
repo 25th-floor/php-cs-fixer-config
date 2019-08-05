@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * 25th-floor GmbH
+ *
+ * @link      https://www.25th-floor.com
+ * @copyright Copyright (c) 2018 25th-floor GmbH
+ */
+
+require __DIR__ . '/vendor/autoload.php';
+
+$finder = PhpCsFixer\Finder::create()
+    ->in(__DIR__);
+
+return TwentyFifth\PhpCsFixer\Php71Config::create()
+    ->setCacheFile(__DIR__. '/.build/php-cs-fixer/.php_cs.cache')
+    ->setFinder($finder);
