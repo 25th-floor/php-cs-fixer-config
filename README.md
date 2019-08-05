@@ -1,8 +1,8 @@
 25th-floor php-cs-fixer-config
 ==============================
 
-Provides multiple rule sets for (`friendsofphp/php-cs-fixer`)[https://github.com/FriendsOfPHP/PHP-CS-Fixer].
-This repository is based on (`localheinz/php-cs-fixer-config`)[https://github.com/localheinz/php-cs-fixer-config].
+Provides multiple rule sets for [`friendsofphp/php-cs-fixer`](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
+This repository is based on [`localheinz/php-cs-fixer-config`](https://github.com/localheinz/php-cs-fixer-config).
 
 Requirements
 ------------
